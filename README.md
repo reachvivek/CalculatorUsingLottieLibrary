@@ -1,0 +1,3 @@
+# CalculatorUsingLottieLibrary
+A Standard Calculator which features a splash screen utilising the Lottie Library from airbnb.
+Basic Calculation can be done with the help of this app...
