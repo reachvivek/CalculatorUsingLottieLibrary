@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="290dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="265dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="9"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btndiv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="÷"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnminus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="-"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnmul"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="x"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnplus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="+"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btndec"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="."
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnequals"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:layout_weight="1"
+            android:background="#00a2ed"
+            android:text="="
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#fff" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnclr"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="299dp"
+        android:layout_marginTop="140dp"
+        android:background="#ec5800"
+        android:text="⌫"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#fff" />
+</RelativeLayout>
